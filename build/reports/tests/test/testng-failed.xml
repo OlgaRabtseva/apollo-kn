@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Apollo]">
+  <test thread-count="5" verbose="0" name="Apollo Tests(failed)">
+    <classes>
+      <class name="test.AddBookToCollectionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="removeBookFromCollectionTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.AddBookToCollectionTest -->
+    </classes>
+  </test> <!-- Apollo Tests(failed) -->
+</suite> <!-- Failed suite [Apollo] -->
